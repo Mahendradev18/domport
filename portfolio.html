@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        let mm=document.createElement("div");
+        document.body.appendChild(mm);
+
+      let a = document.createElement("main");
+      mm.appendChild(a);
+
+      let p = document.createElement("img");
+      a.appendChild(p);
+      p.setAttribute("src", "./1708678070961.jpg");
+      p.style.width = "13VW";
+      p.style.borderRadius = "120px";
+      p.style.boxShadow = "-3px -3px 15px grey";
+
+      let n = document.createElement("h2");
+      a.appendChild(n);
+      n.innerHTML = "T.Mohan Sai Mahendra";
+
+      let ps = document.createElement("h4");
+      a.appendChild(ps);
+      ps.innerHTML = "PROFILE SUMMARY<hr>";
+
+      let psm = document.createElement("p");
+      a.appendChild(psm);
+      psm.innerHTML =
+        "Enthusiastic recent graduate actively developing skills in ReactJS, HTML, CSS, and JavaScript, with a strong focus on designing and building user interfaces. Currently learning to make complex technical and design decisions, and gaining experience with API interactions and RESTful APIs. Eager to contribute to front-end architecture and translate designs and wireframes into high-quality code. Familiar with jQuery and excited to explore Redux and modern authorization mechanisms like JSON Web Token. Dedicated to writing reusable components and unit tests, while leveraging Git repositories to collaborate effectively on projects";
+
+        let es=document.createElement("h4");
+        a.appendChild(es)
+        es.innerHTML="EDUCATION DETAILS<hr>";
+
+        let esm=document.createElement("p");
+        a.appendChild(esm);
+        esm.innerHTML="Gayatri College of Science & Management, BSc Computer Science<br><br>SriChaitanya Junior College, Intermediate<br><br>Nalanda School, 10th Class";
+
+        let ts=document.createElement("h4");
+        a.appendChild(ts)
+        ts.innerHTML="TECHNICAL SKILLS<hr>";
+
+        let tsm=document.createElement("p");
+        a.appendChild(tsm);
+        tsm.innerHTML="HTML<br><br>CSS<br><br>JAVASCRIPT<br><br>Bootstrap";
+
+        let pr=document.createElement("h4");
+        a.appendChild(pr)
+        pr.innerHTML="PROJECTS<hr>";
+
+        let prm=document.createElement("p");
+        a.appendChild(prm);
+        prm.innerHTML="Cretated an UI Template with HTML, CSS and Bootastrap<br><br>Intagram Clone"
+    </script>
+  </body>
+</html>
